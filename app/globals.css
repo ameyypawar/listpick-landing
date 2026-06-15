@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 48 33% 98%;
+  --foreground: 0 0% 8%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 8%;
+  --primary: 243 75% 59%;
+  --primary-foreground: 48 33% 98%;
+  --accent: 43 96% 56%;
+  --accent-foreground: 0 0% 8%;
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 45%;
+  --border: 0 0% 90%;
+  --radius: 1.25rem;
+
+  --indigo: 243 75% 59%;
+  --amber: 43 96% 56%;
+  --lilac: 252 100% 85%;
+  --kelly: 145 55% 40%;
+  --bubblegum: 326 80% 80%;
+  --brightyellow: 50 100% 65%;
+  --mint: 152 45% 82%;
+  --cream: 48 33% 98%;
+  --ink: 0 0% 8%;
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    overflow-x: clip;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-wiggle,
+  .animate-fade-in,
+  .animate-slide-up {
+    animation: none !important;
+  }
+}
