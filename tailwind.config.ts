@@ -5,6 +5,16 @@ const config: Config = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./lib/**/*.{js,ts,jsx,tsx}",
+  ],
+  safelist: [
+    // Pill / Blob bg-* dynamic classes (colorClasses record)
+    "bg-cream", "bg-indigo", "bg-amber", "bg-lilac", "bg-kelly",
+    "bg-bubblegum", "bg-brightyellow", "bg-mint", "bg-ink", "bg-muted", "bg-card",
+    // Scallop fill-* dynamic classes (colorFill record)
+    "fill-cream", "fill-indigo", "fill-amber", "fill-lilac", "fill-kelly",
+    "fill-bubblegum", "fill-brightyellow", "fill-mint", "fill-ink",
+    "fill-background", "fill-card", "fill-muted",
   ],
   theme: {
     extend: {
