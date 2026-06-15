@@ -1,0 +1,12 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Badge circle: indigo fill, cream stroke -->
+  <circle cx="256" cy="256" r="240" fill="#4F46E5" stroke="#FBFAF5" stroke-width="20"/>
+
+  <!-- Single cream list row (base) -->
+  <rect x="100" y="310" width="240" height="52" rx="26" fill="#FBFAF5"/>
+
+  <!-- Amber bar plucked upward -->
+  <g transform="translate(256,216) rotate(-8) translate(-256,-216)">
+    <rect x="130" y="192" width="230" height="52" rx="26" fill="#FBBF24"/>
+  </g>
+</svg>

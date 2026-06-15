@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer badge circle: indigo fill, cream chunky stroke -->
+  <circle cx="256" cy="256" r="236" fill="#4F46E5" stroke="#FBFAF5" stroke-width="18"/>
+  <!-- Subtle lilac inner ring -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#C4B5FD" stroke-width="5" opacity="0.5"/>
+
+  <!-- List rows (cream, stacked) -->
+  <rect x="108" y="285" width="230" height="46" rx="23" fill="#FBFAF5"/>
+  <rect x="108" y="349" width="230" height="46" rx="23" fill="#FBFAF5"/>
+  <rect x="108" y="413" width="230" height="46" rx="23" fill="#FBFAF5" opacity="0.6"/>
+
+  <!-- Plucked amber bar: lifted above, offset right, slight rotation -->
+  <g transform="translate(256,214) rotate(-8) translate(-256,-214)">
+    <rect x="148" y="191" width="220" height="46" rx="23" fill="#FBBF24"/>
+  </g>
+
+  <!-- Arrow / lift indicator (cream) above the plucked bar -->
+  <line x1="258" y1="178" x2="258" y2="148" stroke="#FBFAF5" stroke-width="8" stroke-linecap="round"/>
+  <polyline points="240,162 258,142 276,162" fill="none" stroke="#FBFAF5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Four-point sparkle 1 (cream) — top right of plucked bar -->
+  <g transform="translate(358,166)">
+    <line x1="0" y1="-14" x2="0" y2="14" stroke="#FBFAF5" stroke-width="5" stroke-linecap="round"/>
+    <line x1="-14" y1="0" x2="14" y2="0" stroke="#FBFAF5" stroke-width="5" stroke-linecap="round"/>
+    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#FBFAF5" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <line x1="8" y1="-8" x2="-8" y2="8" stroke="#FBFAF5" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Four-point sparkle 2 (smaller, cream) — left of plucked bar -->
+  <g transform="translate(138,200)">
+    <line x1="0" y1="-9" x2="0" y2="9" stroke="#FBFAF5" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-9" y1="0" x2="9" y2="0" stroke="#FBFAF5" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-5" y1="-5" x2="5" y2="5" stroke="#FBFAF5" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="5" y1="-5" x2="-5" y2="5" stroke="#FBFAF5" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>
